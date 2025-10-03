@@ -1,6 +1,6 @@
 export const deleteApi = async (data) => {
     try {
-        const url = "http://localhost:5600/api/v1/auth/delete";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/auth/delete";
         const response = await fetch(url, {
             method: "DELETE",
             headers: {

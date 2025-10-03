@@ -1,9 +1,9 @@
 export const allTaskApi = async (status) => {
     try {
-        let url = "http://localhost:5600/api/v1/task/all";
+        let url = "https://workshana-task-manager.onrender.com/api/v1/task/all";
 
         if(status) {
-            url = `http://localhost:5600/api/v1/task/all?status=${status}`;
+            url = `https://workshana-task-manager.onrender.com/api/v1/task/all?status=${status}`;
         }
         const response = await fetch(url, {
             method: "GET",
@@ -20,7 +20,7 @@ export const allTaskApi = async (status) => {
 
 export const getAllTaskFilterAPI = async (filters = {}) => {
   try {
-    let url = `http://localhost:5600/api/v1/task/all`;
+    let url = `https://workshana-task-manager.onrender.com/api/v1/task/all`;
 
     // Convert filters object to query string dynamically
     const queryParams = new URLSearchParams();

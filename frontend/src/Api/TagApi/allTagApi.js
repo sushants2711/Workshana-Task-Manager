@@ -1,6 +1,6 @@
 export const allTagApi = async () => {
     try {
-        const url = "http://localhost:5600/api/v1/tag/all";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/tag/all";
         const response = await fetch(url, {
             method: "GET",
             credentials: "include"

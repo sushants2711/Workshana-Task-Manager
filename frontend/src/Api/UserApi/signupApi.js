@@ -1,6 +1,6 @@
 export const signupApi = async (data) => {
     try {
-        const url = "http://localhost:5600/api/v1/auth/signup";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/auth/signup";
         const response = await fetch (url, {
             method: "POST",
             credentials: "include",

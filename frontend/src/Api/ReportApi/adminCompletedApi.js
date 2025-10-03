@@ -1,6 +1,6 @@
 export const adminCompletedApi = async () => {
     try {
-        const url = "http://localhost:5600/api/v1/report/admin-owners/closed";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/report/admin-owners/closed";
         const response = await fetch(url, {
             method: "GET",
             credentials: "include"

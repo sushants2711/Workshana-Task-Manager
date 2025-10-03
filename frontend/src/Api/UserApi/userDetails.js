@@ -1,6 +1,6 @@
 export const userDetails = async () => {
     try {
-        const url = "http://localhost:5600/api/v1/auth/user-details";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/auth/user-details";
         const response = await fetch(url, {
             method: "GET",
             credentials: "include"

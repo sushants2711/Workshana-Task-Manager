@@ -1,6 +1,6 @@
 export const getAllUsers = async () => {
     try {
-        const url = "http://localhost:5600/api/v1/auth/all-user";
+        const url = "https://workshana-task-manager.onrender.com/api/v1/auth/all-user";
         const response = await fetch(url, {
             method: "GET",
             credentials: "include"
