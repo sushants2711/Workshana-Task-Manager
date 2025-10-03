@@ -35,7 +35,7 @@ app.use(bodyParser.json());
 // app.use(cors()); 
 
 app.use(cors({
-    origin: "https://workshana-task-manager-sushant-singh.onrender.com",
+    origin: "https://workshana-task-manager-frontend-sushant.onrender.com",
     credentials: true,
     methods: "GET,POST,PUT,DELETE",
     allowedHeaders: ["Content-Type", "Authorization"]
