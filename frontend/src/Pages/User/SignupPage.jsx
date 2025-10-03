@@ -3,11 +3,11 @@ import { Helmet } from "react-helmet";
 import { Link, useNavigate } from "react-router-dom";
 import { Eye, EyeOff } from "lucide-react";
 import { handleError } from "../../ToastMessages/errorMessage";
-import { signupApi } from "../../Api/UserApi/signupAPi";
 import { handleSuccess } from "../../ToastMessages/successMessage";
 import { allAuthContext } from "../../Context/Authcontext/Authcontext";
 import { ToastContainer } from "react-toastify";
 import { Layout } from "../../Components/Layout/Layout";
+import { signupApi } from "../../Api/UserApi/signupApi";
 
 export const SignupPage = () => {
   // context api call here
